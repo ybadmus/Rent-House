@@ -1,3 +1,18 @@
 .navbar-brand {
     font-size: 28px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #a13333;
+    color: floralwhite;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: floralwhite;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: floralwhite;
+    font-weight: 600;
 }
