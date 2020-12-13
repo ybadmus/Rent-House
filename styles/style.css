@@ -3,7 +3,7 @@
     cursor: pointer;
 }
 
-header {
+.main-navbar {
     background-color: #a13333;
     color: floralwhite;
 }
@@ -18,9 +18,50 @@ header {
 }
 
 .page-jumbotron {
-    height: 650px;
-    background-image: linear-gradient(to bottom right, rgba(208, 210, 221, 0.52), rgba(26, 21, 25, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
+    height: 600px;
+    background-image: linear-gradient(to top, rgba(216, 218, 223, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-items-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+.page-slogan {
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-holder {
     position: relative;
+}
+
+.search-form {
+    margin: 0 auto;
+    width: 95%;
+    height: 140px;
+    padding: 10px;
+    background: #d9d5d5;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.search-button-mobile {
+    background-color: #a13333;
+    color: white;
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    padding: 10px;
+    left: 5%;
+    right: 5%;
+    z-index: 1;
 }
