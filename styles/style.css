@@ -16,3 +16,11 @@ header {
     color: floralwhite;
     font-weight: 600;
 }
+
+.page-jumbotron {
+    height: 650px;
+    background-image: linear-gradient(to bottom right, rgba(208, 210, 221, 0.52), rgba(26, 21, 25, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
