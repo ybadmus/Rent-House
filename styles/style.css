@@ -37,6 +37,7 @@
     font-weight: 600;
     margin: 0 auto;
     text-align: center;
+    width: 95%;
 }
 
 .form-holder {
@@ -46,12 +47,13 @@
 .search-form {
     margin: 0 auto;
     width: 95%;
-    height: 140px;
+    height: 150px;
     padding: 10px;
     background: #d9d5d5;
     opacity: 0.8;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .search-button-mobile {
@@ -64,4 +66,25 @@
     left: 5%;
     right: 5%;
     z-index: 1;
+    outline: none;
+}
+
+.search-button-mobile:hover {
+    background-color: #a13333;
+}
+
+.button-howit-work {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    right: 35%;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.main-header {
+    text-align: center;
+    color: #a13333;
+    font-weight: 600;
+    margin: 20px 0;
 }
