@@ -1,90 +1,90 @@
 .navbar-brand {
-    font-size: 28px;
-    cursor: pointer;
+  font-size: 28px;
+  cursor: pointer;
 }
 
 .main-navbar {
-    background-color: #a13333;
-    color: floralwhite;
+  background-color: #a13333;
+  color: floralwhite;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: floralwhite;
+  color: floralwhite;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: floralwhite;
-    font-weight: 600;
+  color: floralwhite;
+  font-weight: 600;
 }
 
 .page-jumbotron {
-    height: 600px;
-    background-image: linear-gradient(to top, rgba(216, 218, 223, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
+  height: 600px;
+  background-image: linear-gradient(to top, rgba(216, 218, 223, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
 
 .jumbotron-items-header {
-    display: flex;
-    flex-direction: column;
-    margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
 }
 
 .page-slogan {
-    color: white;
-    font-weight: 600;
-    margin: 0 auto;
-    text-align: center;
-    width: 95%;
+  color: white;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  width: 95%;
 }
 
 .form-holder {
-    position: relative;
+  position: relative;
 }
 
 .search-form {
-    margin: 0 auto;
-    width: 95%;
-    height: 150px;
-    padding: 10px;
-    background: #d9d5d5;
-    opacity: 0.8;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+  margin: 0 auto;
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+  background: #d9d5d5;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .search-button-mobile {
-    background-color: #a13333;
-    color: white;
-    position: absolute;
-    top: 100px;
-    width: 90%;
-    padding: 10px;
-    left: 5%;
-    right: 5%;
-    z-index: 1;
-    outline: none;
+  background-color: #a13333;
+  color: white;
+  position: absolute;
+  top: 100px;
+  width: 90%;
+  padding: 10px;
+  left: 5%;
+  right: 5%;
+  z-index: 1;
+  outline: none;
 }
 
 .search-button-mobile:hover {
-    background-color: #a13333;
+  background-color: #a13333;
 }
 
 .button-howit-work {
-    position: absolute;
-    width: 30%;
-    left: 35%;
-    right: 35%;
-    white-space: normal;
-    word-wrap: break-word;
+  position: absolute;
+  width: 30%;
+  left: 35%;
+  right: 35%;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .main-header {
-    text-align: center;
-    color: #a13333;
-    font-weight: 600;
-    margin: 30px 0;
+  text-align: center;
+  color: #a13333;
+  font-weight: 600;
+  margin: 30px 0;
 }
