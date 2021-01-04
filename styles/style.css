@@ -73,7 +73,7 @@
   background-color: #a13333;
 }
 
-.button-howit-work {
+.button-how-it-work {
   position: absolute;
   width: 30%;
   left: 35%;
@@ -87,4 +87,56 @@
   color: #a13333;
   font-weight: 600;
   margin: 30px 0;
+}
+
+.advertisement {
+  padding: 30px;
+  text-align: center;
+}
+
+.find-home-desc {
+  margin: 20px 0px;
+}
+
+.find-home-button {
+  margin: 10px 0px 50px 0px;
+}
+
+.bg-color-yellow {
+  background-color: #d47c5c;
+  color: white;
+}
+
+.btn-ads-yellow {
+  color: #d47c5c;
+}
+
+.advertisement-section {
+  margin-top: 30px;
+}
+
+.bg-color-gray {
+  background-color: #84807f;
+  color: white;
+}
+
+.btn-ads-gray {
+  color: #84807f;
+}
+
+.bg-color-blue {
+  background-color: #21a0d2;
+  color: white;
+}
+
+.btn-ads-blue {
+  color: #21a0d2;
+}
+
+.find-home-header {
+  margin-top: 20px;
+}
+
+.find-home-desc {
+  font-size: 16px;
 }
