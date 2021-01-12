@@ -77,6 +77,11 @@ body {
   background-color: #a13333;
 }
 
+.search-button-mobile:focus {
+  outline: none !important;
+  box-shadow: none;
+} 
+
 .button-how-it-work {
   position: absolute;
   width: 30%;
@@ -85,6 +90,11 @@ body {
   white-space: normal;
   word-wrap: break-word;
 }
+
+.button-how-it-work:focus {
+  outline: none !important;
+  box-shadow: none;
+} 
 
 .main-header {
   text-align: center;
