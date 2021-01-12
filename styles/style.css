@@ -18,7 +18,7 @@
 }
 
 .page-jumbotron {
-  height: 520px;
+  height: 560px;
   background-image: linear-gradient(to top, rgba(216, 218, 223, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -56,6 +56,10 @@
   margin-bottom: 30px;
 }
 
+.font-weight-600 {
+  font-weight: 600;
+}
+
 .search-button-mobile {
   background-color: #a13333;
   color: white;
@@ -88,6 +92,16 @@
 }
 
 .button-how-it-work:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.subscribe-textbox:focus {
+  outline: none !important;
+  box-shadow: none;
+} 
+
+.subscribe-btn:focus {
   outline: none !important;
   box-shadow: none;
 } 
@@ -146,4 +160,25 @@
 
 .find-home-header {
   margin-top: 40px;
+}
+
+.page-footer {
+  background-color: #000000;
+  color: floralwhite;
+}
+
+.footer-list li {
+  display: inline;
+  font-weight: 600;
+  color: floralwhite;
+  padding: 0px 5px;
+  cursor: pointer;;
+}
+
+.subscribe-textbox {
+  background-color: #000000;
+}
+
+.subscribe-btn {
+  border-radius: 0%;
 }
