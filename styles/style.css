@@ -199,6 +199,11 @@ body {
   color: white;
 }
 
+.bg-color-4a4f4f {
+  background-color: #4a4f4f;
+  color: white;
+}
+
 .btn-ads-gray {
   color: #84807f;
 }
@@ -226,16 +231,34 @@ body {
   font-weight: 600;
   color: floralwhite;
   cursor: pointer;
+  padding: 0px 5%;
+  border-right: 1px solid gray;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.footer-list-bottom li {
+  display: inline;
+  font-weight: 600;
+  color: floralwhite;
+  cursor: pointer;
+  padding: 0px 5%;
+  text-align: center;
+  margin: 0px 0px;
 }
 
 .footer-list-sm li {
   display: inline;
   font-weight: 600;
   color: floralwhite;
-  padding: 0px 10px;
+  padding: 0px 5%;
   cursor: pointer;
   border-right: 2px solid gray;
   margin: 0px;
+}
+
+.footer-list li:last-child {
+  border-right: none;
 }
 
 .footer-list-sm li:last-child {
