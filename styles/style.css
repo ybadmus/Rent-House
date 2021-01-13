@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
+  overflow-x: hidden;
+}
+
 .navbar-brand {
   font-size: 28px;
   cursor: pointer;
@@ -14,7 +20,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: floralwhite;
-  font-weight: 600;
+  font-weight: 600; 
 }
 
 .page-jumbotron {
@@ -49,6 +55,18 @@
   width: 95%;
   height: 180px;
   padding: 10px;
+  background: #d9d5d5;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.search-form-sm {
+  margin: 0 auto;
+  width: 60%;
+  height: 150px;
+  padding: 10px 20px;
   background: #d9d5d5;
   opacity: 0.8;
   border-radius: 5px;
@@ -110,7 +128,7 @@
   text-align: center;
   color: #a13333;
   font-weight: 600;
-  margin: 30px 0;
+  margin: 30px 10px;
 }
 
 .advertisement {
@@ -124,7 +142,7 @@
 }
 
 .bg-color-yellow {
-  background-color: #d47c5c;
+  background-color: #e27f65;
   color: white;
 }
 
@@ -132,12 +150,8 @@
   color: #d47c5c;
 }
 
-.advertisement-section {
-  margin-top: 30px;
-}
-
 .bg-color-gray {
-  background-color: #84807f;
+  background-color: #878c8c;
   color: white;
 }
 
@@ -146,16 +160,12 @@
 }
 
 .bg-color-blue {
-  background-color: #21a0d2;
+  background-color: #519bd8;
   color: white;
 }
 
 .btn-ads-blue {
   color: #21a0d2;
-}
-
-.card {
-  height: 250px;
 }
 
 .find-home-header {
@@ -181,4 +191,12 @@
 
 .subscribe-btn {
   border-radius: 0%;
+}
+
+.iconsStyle {
+  width: 100px;
+}
+
+.border-gray {
+  border-bottom: 1px solid gray !important;
 }
