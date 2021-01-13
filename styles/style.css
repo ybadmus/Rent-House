@@ -247,14 +247,11 @@ body {
   margin: 0px 0px;
 }
 
-.footer-list-sm li {
+.footer-list-md li {
   display: inline;
   font-weight: 600;
   color: floralwhite;
-  padding: 0px 5%;
   cursor: pointer;
-  border-right: 2px solid gray;
-  margin: 0px;
 }
 
 .footer-list li:last-child {
@@ -277,8 +274,12 @@ body {
   width: 100px;
 }
 
-.border-gray {
+.border-bottom-gray {
   border-bottom: 1px solid gray !important;
+}
+
+.border-right-gray {
+  border-right: 1px solid gray !important;
 }
 
 .border-gray-top {
@@ -291,12 +292,12 @@ body {
 }
 
 .advert-images {
-  height: 90%;
+  height: 80%;
   width: 70%;
   border-radius: 50%;
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 10%;
+  left: 10%;
 }
 
 @media screen and (max-width: 420px) {
