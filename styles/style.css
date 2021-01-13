@@ -25,7 +25,7 @@ body {
 
 .page-jumbotron {
   height: 560px;
-  background-image: linear-gradient(to top, rgba(216, 218, 223, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
+  background-image: linear-gradient(to top,rgba(31, 31, 32, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -177,7 +177,7 @@ body {
 }
 
 .advertisement-md {
-  padding: 30px 100px;
+  padding: 30px 60px;
   height: 290px;
 }
 
@@ -225,9 +225,7 @@ body {
   display: inline;
   font-weight: 600;
   color: floralwhite;
-  padding: 0px 5px;
   cursor: pointer;
-  margin: 0px;
 }
 
 .footer-list-sm li {
@@ -260,8 +258,12 @@ body {
   border-bottom: 1px solid gray !important;
 }
 
+.border-gray-top {
+  border-top: 1px solid gray !important;
+}
+
 .card-body {
-  width: 350px;
+  width: 380px;
   margin: 0px auto;
 }
 
@@ -272,4 +274,11 @@ body {
   position: absolute;
   top: 5%;
   left: 5%;
+}
+
+@media screen and (max-width: 420px) {
+   .card-body {
+     width: 100%;
+     margin: 0px auto;
+   }
 }
