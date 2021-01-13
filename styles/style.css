@@ -176,6 +176,11 @@ body {
   height: 290px;
 }
 
+.advertisement-md {
+  padding: 30px 100px;
+  height: 290px;
+}
+
 .find-home-desc {
   margin: 20px 0px;
 }
@@ -258,4 +263,13 @@ body {
 .card-body {
   width: 350px;
   margin: 0px auto;
+}
+
+.advert-images {
+  height: 90%;
+  width: 70%;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
 }
