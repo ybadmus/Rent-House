@@ -327,7 +327,7 @@ body {
 
 .search-results-item {
   cursor: pointer;
-  background: linear-gradient(to top,rgba(31, 31, 32, 0.52), rgba(47, 46, 47, 0.73));
+  background: linear-gradient(to top,rgba(153, 153, 166, 0.52), rgba(23, 1, 1, 0.87));
   position: relative;
   color: white;
 }
@@ -340,9 +340,14 @@ body {
   opacity: 1;
 }
 
-.search-results-item:hover {
-  color: #000000;
-}
+.navbar-brand {
+  color: white !important;
+} 
+
+.navbar-brand:hover {
+  color: white !important;
+  outline: 0
+} 
 
 .result-item-name {
   position: absolute;
@@ -350,11 +355,11 @@ body {
   z-index: 1;
   width: 100%;
   text-align: center;  
-  font-weight: 600;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 420px) {
-   .card-body {
+   .card-body { 
      width: 100%;
      margin: 0px auto;
    }
