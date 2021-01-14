@@ -300,6 +300,14 @@ body {
   left: 10%;
 }
 
+.page-form-title {
+  color: #716e6e;
+  font-weight: 600;
+  margin: 10px auto;
+  text-align: center;
+  width: 96%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
