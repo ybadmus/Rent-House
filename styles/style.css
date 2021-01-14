@@ -131,6 +131,10 @@ body {
 }
 
 .search-button-mobile:hover {
+  color: white;
+}
+
+.search-button-mobile:hover {
   background-color: #a13333;
 }
 
@@ -356,6 +360,11 @@ body {
   width: 100%;
   text-align: center;  
   font-weight: 700;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+  outline: 0 !important;
 }
 
 @media screen and (max-width: 420px) {
