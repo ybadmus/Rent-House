@@ -297,7 +297,6 @@ body {
 
 .advert-images {
   height: 80%;
-  width: 80%;
   border-radius: 50%;
   position: absolute;
   top: 10%;
@@ -314,10 +313,6 @@ body {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.copyright {
-  font-size: 13px;
 }
 
 .searchBtns {
@@ -365,6 +360,10 @@ body {
 .text-decoration-none {
   text-decoration: none !important;
   outline: 0 !important;
+}
+
+.outline-0000:focus {
+  outline: 0;
 }
 
 @media screen and (max-width: 420px) {
