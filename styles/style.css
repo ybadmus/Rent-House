@@ -1,12 +1,18 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
   overflow-x: hidden;
 }
 
 .navbar-brand {
   font-size: 28px;
   cursor: pointer;
+  color: white !important;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+  outline: 0;
 }
 
 .main-navbar {
@@ -20,12 +26,12 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: floralwhite;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .page-jumbotron {
   height: 560px;
-  background-image: linear-gradient(to top,rgba(31, 31, 32, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
+  background-image: linear-gradient(to top, rgba(31, 31, 32, 0.52), rgba(36, 23, 33, 0.73)), url('https://wallpaperaccess.com/full/1126911.jpg');
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -46,7 +52,8 @@ body {
   width: 96%;
 }
 
-.form-holder, .form-holder-md {
+.form-holder,
+.form-holder-md {
   position: relative;
 }
 
@@ -134,14 +141,10 @@ body {
   color: white;
 }
 
-.search-button-mobile:hover {
-  background-color: #a13333;
-}
-
 .search-button-mobile:focus {
   outline: none !important;
   box-shadow: none;
-} 
+}
 
 .button-how-it-work {
   position: absolute;
@@ -157,15 +160,23 @@ body {
   box-shadow: none;
 }
 
+.subscribe-textbox {
+  background-color: #000;
+}
+
 .subscribe-textbox:focus {
   outline: none !important;
   box-shadow: none;
-} 
+}
+
+.subscribe-btn {
+  border-radius: 0%;
+}
 
 .subscribe-btn:focus {
   outline: none !important;
   box-shadow: none;
-} 
+}
 
 .main-header {
   text-align: center;
@@ -186,7 +197,7 @@ body {
 }
 
 .find-home-desc {
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .bg-color-yellow {
@@ -226,7 +237,7 @@ body {
 }
 
 .page-footer {
-  background-color: #000000;
+  background-color: #000;
   color: floralwhite;
 }
 
@@ -235,10 +246,10 @@ body {
   font-weight: 600;
   color: floralwhite;
   cursor: pointer;
-  padding: 0px 5%;
+  padding: 0 5%;
   border-right: 1px solid gray;
   text-align: center;
-  margin: 0px 0px;
+  margin: 0 0;
 }
 
 .footer-list-bottom li {
@@ -246,9 +257,9 @@ body {
   font-weight: 600;
   color: floralwhite;
   cursor: pointer;
-  padding: 0px 5%;
+  padding: 0 5%;
   text-align: center;
-  margin: 0px 0px;
+  margin: 0 0;
 }
 
 .footer-list-md li {
@@ -264,14 +275,6 @@ body {
 
 .footer-list-sm li:last-child {
   border-right: none;
-}
-
-.subscribe-textbox {
-  background-color: #000000;
-}
-
-.subscribe-btn {
-  border-radius: 0%;
 }
 
 .iconsStyle {
@@ -292,7 +295,7 @@ body {
 
 .card-body {
   width: 380px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .advert-images {
@@ -317,7 +320,7 @@ body {
 
 .searchBtns {
   bottom: 0;
-  right: 0; 
+  right: 0;
 }
 
 .bg-search-form {
@@ -326,7 +329,7 @@ body {
 
 .search-results-item {
   cursor: pointer;
-  background: linear-gradient(to top,rgba(153, 153, 166, 0.52), rgba(23, 1, 1, 0.87));
+  background: linear-gradient(to top, rgba(153, 153, 166, 0.52), rgba(23, 1, 1, 0.87));
   position: relative;
   color: white;
 }
@@ -339,21 +342,12 @@ body {
   opacity: 1;
 }
 
-.navbar-brand {
-  color: white !important;
-} 
-
-.navbar-brand:hover {
-  color: white !important;
-  outline: 0
-} 
-
 .result-item-name {
   position: absolute;
   top: 35%;
   z-index: 1;
   width: 100%;
-  text-align: center;  
+  text-align: center;
   font-weight: 700;
 }
 
@@ -370,9 +364,13 @@ body {
   height: 450px;
 }
 
+iframe {
+  width: 100%;
+}
+
 @media screen and (max-width: 420px) {
-   .card-body { 
-     width: 100%;
-     margin: 0px auto;
-   }
+  .card-body {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
