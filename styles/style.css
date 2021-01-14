@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: ##ffffff;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -293,6 +293,7 @@ body {
 
 .advert-images {
   height: 80%;
+  width: 80%;
   border-radius: 50%;
   position: absolute;
   top: 10%;
@@ -301,6 +302,19 @@ body {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.searchBtns {
+  bottom: 0;
+  right: 0; 
+}
+
+.bg-search-form {
+  background-color: #e1e8ee;
 }
 
 @media screen and (max-width: 420px) {
