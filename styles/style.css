@@ -366,6 +366,10 @@ body {
   outline: 0;
 }
 
+.map-container {
+  height: 450px;
+}
+
 @media screen and (max-width: 420px) {
    .card-body { 
      width: 100%;
