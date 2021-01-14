@@ -65,7 +65,7 @@
         </div>
 
         <div class="my-5 py-5 bg-search-form">
-            <div class="container">
+            <div class="container d-none d-lg-block">
                 <form>
                     <div class="form-row">
                         <div class="col-md-3 mb-3">
@@ -98,6 +98,43 @@
                                     Search</button>
                                 <button type="submit" class="btn btn-warning"><i class="fa fa-eraser" aria-hidden="true"></i>
                                     Clear filter</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container-fluid d-none d-md-flex d-lg-none">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault02">City/Town <span class="text-danger">*</span></label>
+                            <select class="form-control">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault01">Neighbourhood <span class="text-danger">*</span></label>
+                            <select class="form-control">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefaultUsername">Apartment Type <span class="text-danger">*</span></label>
+                            <select class="form-control">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault02">Pricing <span class="text-danger">*</span></label>
+                            <select class="form-control">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3 position-relative">
+                            <div class="position-absolute searchBtns">
+                                <button type="submit" class="btn btn-primary"> Search</button>
+                                <button type="submit" class="btn btn-warning"> Clear filter</button>
                             </div>
                         </div>
                     </div>
