@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/fad6d40055.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>House Rentals</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="main-navbar">
+            <nav class="d-block d-sm-none pgnav-bg">
+                <div class="d-flex justify-content-center">
+                    <a class="navbar-brand mx-0" href="index.html">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        patashule
+                    </a>
+                </div>
+                <div class="navbar navbar-expand navbar-light justify-content-center pgnav-bg">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#"><i class="fa fa-list" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-expand navbar-light d-none d-sm-flex mx-5">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    patashule
+                </a>
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav mr-sm-2">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i> HOUSES</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#"><i class="fa fa-user-o" aria-hidden="true"></i> ABOUT</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#"><i class="fa fa-rss" aria-hidden="true"></i> BLOG</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#"><i class="fa fa-list" aria-hidden="true"></i> MORE</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="my-5 py-5 bg-search-form">
+            <div class="container d-none d-lg-block">
+                <h4 class="page-form-title">Filter by name of city, neighbourhood, type of apartment and price range:</h4>
+
+                <form class="mt-4">
+                    <div class="form-row">
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault02">City/Town <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault02" id="validationDefault02">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault01">Neighbourhood <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault01" id="validationDefault01">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefaultUsername">Apartment Type <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefaultUsername" id="validationDefaultUsername">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault03">Pricing <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault03" id="validationDefault03">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3 position-relative">
+                            <div class="position-absolute searchBtns">
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> 
+                                    Search</button>
+                                <button type="submit" class="btn btn-warning"><i class="fa fa-eraser" aria-hidden="true"></i>
+                                    Clear filter</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container-fluid d-none d-md-block d-lg-none">
+
+                <h4 class="page-form-title">Filter by name of city, neighbourhood, type of apartment and price range:</h4>
+
+                <form class="mt-4">
+                    <div class="form-row">
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault04">City/Town <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault04" id="validationDefault04">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault05">Neighbourhood <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault05" id="validationDefault05">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault06">Apartment Type <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault06" id="validationDefault06">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 mb-3">
+                            <label for="validationDefault07">Pricing <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault07" id="validationDefault07">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3 position-relative">
+                            <div class="position-absolute searchBtns">
+                                <button type="submit" class="btn btn-primary"> Search</button>
+                                <button type="submit" class="btn btn-warning"> Clear filter</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container d-block d-md-none d-lg-none">
+
+                <h4 class="page-form-title">Filter by name of city, neighbourhood, type of apartment and price range:</h4>
+
+                <form class="mt-4">
+                    <div class="form-row">
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault08">City/Town <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault08" id="validationDefault08">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault09">Neighbourhood <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault09" id="validationDefault09">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault10">Apartment Type <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault10" id="validationDefault10">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault11">Pricing <span class="text-danger">*</span></label>
+                            <select class="form-control" name="validationDefault11" id="validationDefault11">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="float-right">
+                                <button type="submit" class="btn btn-primary"><i class="fa fa-search" aria-hidden="true"></i> 
+                                     Search</button>
+                                <button type="submit" class="btn btn-warning"><i class="fa fa-eraser" aria-hidden="true"></i>
+                                     Clear filter</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="container">
+            <h3 class="page-form-title">Search Results Found 9 house(s).</h3>
+
+            <div class="row my-5">
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOTHREE</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOTWO</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: FINALLYTHESLIDER</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOTHREE</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOFIVE</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: FINALLYROLLING</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOONE</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOTWO</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <a href="detail.html" class="outline-0000">
+                        <div class="card px-0 search-results-item">
+                            <div  class="result-item-name"><h5>NAME: DEMOTHREE</h5></div>
+                            <img class="card-img" src="./assets/house.jpeg" alt="Card image">
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row d-block d-md-none pt-5">
+
+                <h5 class="text-center mb-3">MENU</h5>
+
+                <div class="col-12 py-3 mb-0 text-center border-bottom-gray border-gray-top">
+                    <ul class="px-0 my-0 footer-list d-flex justify-content-around list-unstyled">
+                        <li>HOME</li>
+                        <li>SEARCH</li>
+                        <li>ABOUT US</li>
+                        <li>ADVERTISE</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 py-3 text-center border-bottom-gray">
+                    <ul class="px-0 my-0 footer-list d-flex justify-content-around list-unstyled">
+                        <li>FACEBOOK</li>
+                        <li>TWITTER</li>
+                        <li>BLOG</li>
+                        <li>GOOGLE</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row d-none d-md-block pt-5">
+                <div class="col-md-12 py-3 text-center border-gray-top border-bottom-gray">
+                    <ul class="px-0 my-0 footer-list-md d-flex justify-content-around list-unstyled">
+                        <li>HOME</li>
+                        <li>SEARCH</li>
+                        <li>ABOUT US</li>
+                        <li>ADVERTISE</li>
+                        <li><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></li>
+                        <li>FACEBOOK</li>
+                        <li>TWITTER</li>
+                        <li>BLOG</li>
+                        <li>GOOGLE</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row d-block d-md-none">
+                <div class="col-12 py-5 border-bottom-gray">
+                    <h5 class="text-center">SUBSCRIBE</h5>
+
+                    <div class="input-group my-3 mx-auto w-75">
+                        <input type="text" class="form-control border border-dark subscribe-textbox"
+                            placeholder="you@example.com" aria-label="Recipient's email">
+                        <button class="btn btn-outline-secondary bg-dark px-4 text-light subscribe-btn" type="button"
+                            id="button-addon10">send</button>
+                    </div>
+                </div>
+
+                <div class="col-12 py-5 border-bottom-gray">
+                    <h5 class="text-center">CONTACT</h5>
+
+                    <div class="text-center my-3 mx-auto w-75">
+                        <p class="text-center my-0">Have a question or submission?</p>
+                        <p class="text-warning text-center">info@patashule.com</p>
+                    </div>
+                </div>
+
+                <div class="col-12 py-5">
+                    <h5 class="text-center">ABOUT</h5>
+
+                    <div class="text-center my-3 mx-auto w-90">
+                        <p class="text-center my-0">Patashule is a online platform that assists Ghanaians to find a
+                            suitable
+                            home for their family
+                            by simply searching by locations, age, income level, etc <span class="text-warning">Learn
+                                more</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-3 d-none d-md-flex">
+                <div class="col-md-4 py-5">
+                    <h5 class="text-center">SUBSCRIBE</h5>
+
+                    <div class="input-group my-3 mx-auto w-75">
+                        <input type="text" class="form-control border border-dark subscribe-textbox"
+                            placeholder="you@example.com" aria-label="Recipient's email">
+                        <button class="btn btn-outline-secondary bg-dark px-4 text-light subscribe-btn" type="button"
+                            id="button-addon9">send</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <h5 class="text-center">CONTACT</h5>
+
+                    <div class="text-center my-3 mx-auto w-75">
+                        <p class="text-center my-0">Have a question or submission?</p>
+                        <p class="text-warning text-center">info@patashule.com</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <h5 class="text-center">ABOUT</h5>
+
+                    <div class="text-center my-3 mx-auto w-90">
+                        <p class="text-center my-0">Patashule is a online platform that assists Ghanaians to find a
+                            suitable
+                            home for their family
+                            by simply searching by locations, age, income level, etc <span class="text-warning">Learn
+                                more</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="row py-3 bg-color-4a4f4f">
+                <div class="col-5">
+                    <ul class="px-0 my-0 d-flex list-unstyled">
+                        <li class="px-2"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                        <li class="px-2"><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                        <li class="px-2"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                        <li class="px-2"><i class="fa fa-slack" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+
+                <div class="col-7">
+                    <p class="copyright float-right my-auto mr-4"><i class="fa fa-copyright text-uppercase" aria-hidden="true"></i> 2020
+                        PATASHULE ALL RIGHTS RESERVED <i class="fa fa-university" aria-hidden="true"></i>
+                        <strong> ICONIUM DIGITAL</strong> LOVE AND AWESOMENESS
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
